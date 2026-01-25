@@ -1,0 +1,222 @@
+@charset "utf-8";
+*	{
+	margin: 0;
+	padding: 0cm;
+}
+
+body {
+	color:#333333;
+	background-color: cadetblue;
+	text-align: left;
+}
+
+h1	{
+	font-size: 1.25em;
+	margin: 0;
+	padding: 0;
+}
+	
+h2	{
+	font-size: 1em;
+	color:green;
+	text-align: left;
+	margin-top: 15px 0px 5px 20px;
+	clear: both;
+}
+
+h2.naka {
+	font-size: 1.25em;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+	
+h2.shita {
+	margin-top: 50px;
+}
+
+p	{
+	font-family: "メイリオ","Meiryo", "ＭＳ 明朝","MS Mincho", "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","Osaka";
+	font-size: 0.85em;
+	font-weight: normal;
+	line-height: 1.5;
+	border: 1;
+}
+
+
+div#container {
+	width: 900px;
+	margin: auto;
+	background-image: url(image/sora.gif);
+}
+
+address {
+	font-size: 0.75em;
+	font-style: normal;
+}
+		
+a	{
+	font-family: "Times New Roman", Times, serif;
+	color: #006600;
+}
+
+a:hover	{
+	color: #FF0000;
+	text-decoration: blink;
+}
+
+a img {
+	border: none;
+}
+
+address a:hover {
+	color: #ffaa00;
+}	
+
+ul {
+	list-style-type: none;
+	padding-top: 2px;
+	padding-bottom: 20px;
+}
+	
+li {
+	display: inline;
+	font-color: #ffffff;
+	font-size: 0.75em;
+	padding-right: 20px;
+}
+div#header ul {
+	margin: auto;
+	width: 860px;
+}
+
+li.last {
+	padding-right: 0px;
+}
+
+li a {
+	text-decoration: none;
+}
+
+div#hidari {
+	float: left;
+	font-family:  "メイリオ","Meiryo", "ＭＳ 明朝","MS Mincho", "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","Osaka";
+	width: 260px;
+	margin-left: 20px;
+	text-align: left;
+	line-height: 1.5;
+}
+			
+div#migi {
+	float: right;
+	font-family: Times,georgia,helvetica,sans-serif;
+	text-align: right;
+	width: 260px;
+	margin-left: 0px;
+	margin-right: 20px;
+	text-align: right;
+	line-height: 1.5;
+}
+
+divf#naka {
+	text-align: center;
+	width: 340px;
+	text-align: right;
+}
+
+div#footer {
+	clear: both; 
+}
+
+p.sinchaku {
+	font-size: 0.75em;
+	background-color: #003300;
+	color: #ffffff;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	padding: 2px;
+}
+
+p.totop	{
+	padding-top: 20px;
+	padding-right:20px;
+	text-align:right;
+}
+
+div#nendai {
+	float: left;
+	font-family: "ＭＳ ゴシック","MS Gothic", "メイリオ","Meiryo", "Osaka";
+	width: 150px;
+	font-size: 1.5em;
+	text-align: left;
+	line-height: 3;
+	margin-left: 20;
+}
+
+div#nendai a {
+	color: black;
+	padding-left:25px;
+}
+
+div#migi2 {
+	line-height: 1.25;
+	width: 750px;
+	float: right;
+	text-align: left;
+}
+
+div#footer {
+	clear: both;
+}
+
+dl {
+	color: #006600;
+	line-height: 1.5;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+
+dt {
+	font-size: 0.85em;
+	text-align: left;
+}
+
+dd {
+	font-size: 0.85em;
+	text-align: left;
+}
+				
+dl#katu {
+	width: 750px;
+	color: #333333;
+	margin-top: 0px;
+	text-align: left;
+	line-height: 1.5;
+	overflow: hidden;
+}
+
+dl#katu dt	{
+	float: left;
+	font-size: 0.75em;
+	text-align: left;
+	padding-left: 30px;
+	width: 100px;
+}
+
+dl#katu dd {
+	font-size: 0.85em;
+	text-align: left;
+	width: 650px;
+	margin-left: 130px;
+}
+			
+.letter1 {
+	letter-spacing:1em;	}
+	
+	
+		
+					
